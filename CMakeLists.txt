@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.17)
+project(Oppgave_6__7)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(Oppgave_6__7 main.cpp)

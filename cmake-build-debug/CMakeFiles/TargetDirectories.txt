@@ -1,0 +1,3 @@
+C:/Users/Ukhur/Documents/Skole/3. Semester/ClionProjects/Oppgaver AlgMet/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Ukhur/Documents/Skole/3. Semester/ClionProjects/Oppgaver AlgMet/cmake-build-debug/CMakeFiles/Oppgave_6__7.dir
+C:/Users/Ukhur/Documents/Skole/3. Semester/ClionProjects/Oppgaver AlgMet/cmake-build-debug/CMakeFiles/edit_cache.dir
