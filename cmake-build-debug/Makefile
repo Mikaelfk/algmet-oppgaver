@@ -142,32 +142,32 @@ Oppgave_6__7/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Oppgave_6__7.dir\build.make CMakeFiles/Oppgave_6__7.dir/build
 .PHONY : Oppgave_6__7/fast
 
-main.obj: main.cpp.obj
+Oppgave7.obj: Oppgave7.cpp.obj
 
-.PHONY : main.obj
+.PHONY : Oppgave7.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Oppgave_6__7.dir\build.make CMakeFiles/Oppgave_6__7.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+Oppgave7.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Oppgave_6__7.dir\build.make CMakeFiles/Oppgave_6__7.dir/Oppgave7.cpp.obj
+.PHONY : Oppgave7.cpp.obj
 
-main.i: main.cpp.i
+Oppgave7.i: Oppgave7.cpp.i
 
-.PHONY : main.i
+.PHONY : Oppgave7.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Oppgave_6__7.dir\build.make CMakeFiles/Oppgave_6__7.dir/main.cpp.i
-.PHONY : main.cpp.i
+Oppgave7.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Oppgave_6__7.dir\build.make CMakeFiles/Oppgave_6__7.dir/Oppgave7.cpp.i
+.PHONY : Oppgave7.cpp.i
 
-main.s: main.cpp.s
+Oppgave7.s: Oppgave7.cpp.s
 
-.PHONY : main.s
+.PHONY : Oppgave7.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Oppgave_6__7.dir\build.make CMakeFiles/Oppgave_6__7.dir/main.cpp.s
-.PHONY : main.cpp.s
+Oppgave7.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Oppgave_6__7.dir\build.make CMakeFiles/Oppgave_6__7.dir/Oppgave7.cpp.s
+.PHONY : Oppgave7.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Oppgave_6__7
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... Oppgave7.obj
+	@echo ... Oppgave7.i
+	@echo ... Oppgave7.s
 .PHONY : help
 
 
