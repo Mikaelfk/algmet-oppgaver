@@ -103,7 +103,15 @@ Node* byggTre() {
  *  @see      finnMin(...)
  */
 bool erBST(Node* node) {
-
+    if(!node) return true;
+    if(finnMax(node->left) >= node->ID) {
+        return false;
+    } else if(finnMin(node->right) <= node->ID) {
+        return false;
+    }
+    if(!erBST(node->left) || !erBST(node->right)) {
+        return false;
+    }
     return true;
 }
 
@@ -116,15 +124,16 @@ bool erBST(Node* node) {
  */
 int finnMax(Node* node) {
     if(node) {
-        int maxLeft = finnMax(node->left),
+        int max = node->ID,
+        maxLeft = finnMax(node->left),
         maxRight = finnMax(node->right);
-        if(!node->left) maxLeft = node->ID;
-        if(!node->right) maxRight = node->ID;
-        if(maxLeft > maxRight) {
-            return maxLeft;
-        } else {
-            return maxRight;
+        if(maxLeft > max) {
+            max = maxLeft;
         }
+        if(maxRight > max) {
+            max = maxRight;
+        }
+        return max;
     } else {
         return MIN;
     }
@@ -139,17 +148,17 @@ int finnMax(Node* node) {
  */
 int finnMin(Node* node) {
     if(node) {
-        int minLeft;
-        int minRight;
-        minLeft = finnMin(node->left);
+        int min = node->ID,
+        minLeft = finnMin(node->left),
         minRight = finnMin(node->right);
-        if(!node->left) minLeft = node->ID;
-        if(!node->right) minRight = node->ID;
-        if(minLeft > minRight) {
-            return minRight;
-        } else {
-            return minLeft;
+
+        if(minLeft < min) {
+            min = minLeft;
         }
+        if(minRight < min) {
+            min = minRight;
+        }
+        return min;
     } else {
         return MAX;
     }
