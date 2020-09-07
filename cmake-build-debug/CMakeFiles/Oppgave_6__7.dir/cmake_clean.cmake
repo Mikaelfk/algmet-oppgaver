@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Oppgave_6__7.dir/Oppgave7.cpp.obj"
-  "Oppgave_6__7.exe"
-  "Oppgave_6__7.exe.manifest"
+  "CMakeFiles/Oppgave_6__7.dir/Oppgave8.cpp.o"
+  "Oppgave_6__7"
   "Oppgave_6__7.pdb"
-  "libOppgave_6__7.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
