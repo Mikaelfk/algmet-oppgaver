@@ -151,7 +151,6 @@ int finnMin(Node* node) {
         int min = node->ID,
         minLeft = finnMin(node->left),
         minRight = finnMin(node->right);
-
         if(minLeft < min) {
             min = minLeft;
         }
