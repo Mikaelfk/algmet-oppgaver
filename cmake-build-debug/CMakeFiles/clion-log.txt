@@ -1,4 +1,4 @@
-/opt/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/ukhu/Documents/Skole/3. Semester/Algoritmiske metoder/Oppgaver/oppgaver-algmet"
+"C:\Program Files\JetBrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\Ukhur\Documents\Skole\3. Semester\Algoritmiske metoder\oppgaver-algmet"
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/ukhu/Documents/Skole/3. Semester/Algoritmiske metoder/Oppgaver/oppgaver-algmet/cmake-build-debug
+-- Build files have been written to: C:/Users/Ukhur/Documents/Skole/3. Semester/Algoritmiske metoder/oppgaver-algmet/cmake-build-debug
