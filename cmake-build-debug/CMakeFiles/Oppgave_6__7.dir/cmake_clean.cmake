@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Oppgave_6__7.dir/Oppgave8.cpp.obj"
+  "CMakeFiles/Oppgave_6__7.dir/TreeCase3.cpp.obj"
   "Oppgave_6__7.exe"
   "Oppgave_6__7.exe.manifest"
   "Oppgave_6__7.pdb"

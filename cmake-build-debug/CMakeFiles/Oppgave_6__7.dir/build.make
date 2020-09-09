@@ -76,27 +76,27 @@ include CMakeFiles/Oppgave_6__7.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Oppgave_6__7.dir/flags.make
 
-CMakeFiles/Oppgave_6__7.dir/Oppgave8.cpp.obj: CMakeFiles/Oppgave_6__7.dir/flags.make
-CMakeFiles/Oppgave_6__7.dir/Oppgave8.cpp.obj: ../Oppgave8.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Ukhur\Documents\Skole\3. Semester\Algoritmiske metoder\oppgaver-algmet\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Oppgave_6__7.dir/Oppgave8.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Oppgave_6__7.dir\Oppgave8.cpp.obj -c "C:\Users\Ukhur\Documents\Skole\3. Semester\Algoritmiske metoder\oppgaver-algmet\Oppgave8.cpp"
+CMakeFiles/Oppgave_6__7.dir/TreeCase3.cpp.obj: CMakeFiles/Oppgave_6__7.dir/flags.make
+CMakeFiles/Oppgave_6__7.dir/TreeCase3.cpp.obj: ../TreeCase3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Ukhur\Documents\Skole\3. Semester\Algoritmiske metoder\oppgaver-algmet\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Oppgave_6__7.dir/TreeCase3.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Oppgave_6__7.dir\TreeCase3.cpp.obj -c "C:\Users\Ukhur\Documents\Skole\3. Semester\Algoritmiske metoder\oppgaver-algmet\TreeCase3.cpp"
 
-CMakeFiles/Oppgave_6__7.dir/Oppgave8.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Oppgave_6__7.dir/Oppgave8.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Ukhur\Documents\Skole\3. Semester\Algoritmiske metoder\oppgaver-algmet\Oppgave8.cpp" > CMakeFiles\Oppgave_6__7.dir\Oppgave8.cpp.i
+CMakeFiles/Oppgave_6__7.dir/TreeCase3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Oppgave_6__7.dir/TreeCase3.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Ukhur\Documents\Skole\3. Semester\Algoritmiske metoder\oppgaver-algmet\TreeCase3.cpp" > CMakeFiles\Oppgave_6__7.dir\TreeCase3.cpp.i
 
-CMakeFiles/Oppgave_6__7.dir/Oppgave8.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Oppgave_6__7.dir/Oppgave8.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Ukhur\Documents\Skole\3. Semester\Algoritmiske metoder\oppgaver-algmet\Oppgave8.cpp" -o CMakeFiles\Oppgave_6__7.dir\Oppgave8.cpp.s
+CMakeFiles/Oppgave_6__7.dir/TreeCase3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Oppgave_6__7.dir/TreeCase3.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Ukhur\Documents\Skole\3. Semester\Algoritmiske metoder\oppgaver-algmet\TreeCase3.cpp" -o CMakeFiles\Oppgave_6__7.dir\TreeCase3.cpp.s
 
 # Object files for target Oppgave_6__7
 Oppgave_6__7_OBJECTS = \
-"CMakeFiles/Oppgave_6__7.dir/Oppgave8.cpp.obj"
+"CMakeFiles/Oppgave_6__7.dir/TreeCase3.cpp.obj"
 
 # External object files for target Oppgave_6__7
 Oppgave_6__7_EXTERNAL_OBJECTS =
 
-Oppgave_6__7.exe: CMakeFiles/Oppgave_6__7.dir/Oppgave8.cpp.obj
+Oppgave_6__7.exe: CMakeFiles/Oppgave_6__7.dir/TreeCase3.cpp.obj
 Oppgave_6__7.exe: CMakeFiles/Oppgave_6__7.dir/build.make
 Oppgave_6__7.exe: CMakeFiles/Oppgave_6__7.dir/linklibs.rsp
 Oppgave_6__7.exe: CMakeFiles/Oppgave_6__7.dir/objects1.rsp

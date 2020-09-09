@@ -142,32 +142,32 @@ Oppgave_6__7/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Oppgave_6__7.dir\build.make CMakeFiles/Oppgave_6__7.dir/build
 .PHONY : Oppgave_6__7/fast
 
-Oppgave8.obj: Oppgave8.cpp.obj
+TreeCase3.obj: TreeCase3.cpp.obj
 
-.PHONY : Oppgave8.obj
+.PHONY : TreeCase3.obj
 
 # target to build an object file
-Oppgave8.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Oppgave_6__7.dir\build.make CMakeFiles/Oppgave_6__7.dir/Oppgave8.cpp.obj
-.PHONY : Oppgave8.cpp.obj
+TreeCase3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Oppgave_6__7.dir\build.make CMakeFiles/Oppgave_6__7.dir/TreeCase3.cpp.obj
+.PHONY : TreeCase3.cpp.obj
 
-Oppgave8.i: Oppgave8.cpp.i
+TreeCase3.i: TreeCase3.cpp.i
 
-.PHONY : Oppgave8.i
+.PHONY : TreeCase3.i
 
 # target to preprocess a source file
-Oppgave8.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Oppgave_6__7.dir\build.make CMakeFiles/Oppgave_6__7.dir/Oppgave8.cpp.i
-.PHONY : Oppgave8.cpp.i
+TreeCase3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Oppgave_6__7.dir\build.make CMakeFiles/Oppgave_6__7.dir/TreeCase3.cpp.i
+.PHONY : TreeCase3.cpp.i
 
-Oppgave8.s: Oppgave8.cpp.s
+TreeCase3.s: TreeCase3.cpp.s
 
-.PHONY : Oppgave8.s
+.PHONY : TreeCase3.s
 
 # target to generate assembly for a file
-Oppgave8.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Oppgave_6__7.dir\build.make CMakeFiles/Oppgave_6__7.dir/Oppgave8.cpp.s
-.PHONY : Oppgave8.cpp.s
+TreeCase3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Oppgave_6__7.dir\build.make CMakeFiles/Oppgave_6__7.dir/TreeCase3.cpp.s
+.PHONY : TreeCase3.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Oppgave_6__7
-	@echo ... Oppgave8.obj
-	@echo ... Oppgave8.i
-	@echo ... Oppgave8.s
+	@echo ... TreeCase3.obj
+	@echo ... TreeCase3.i
+	@echo ... TreeCase3.s
 .PHONY : help
 
 
