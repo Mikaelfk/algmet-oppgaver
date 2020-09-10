@@ -71,12 +71,9 @@ void finnVerdier(Node* node, int& sumNivaa, int& antall) {
     if(node) {
         sumNivaa += node->nivaa;
         antall++;
-        if(node->left) {
-            finnVerdier(node->left, sumNivaa, antall);
-        }
-        if(node->right) {
-            finnVerdier(node->right, sumNivaa, antall);
-        }
+
+        finnVerdier(node->left, sumNivaa, antall);
+        finnVerdier(node->right, sumNivaa, antall);
     }
 }
 
@@ -91,7 +88,7 @@ void skrivForfedre(Node* node) {
                 if(q != node) {
                     if (q->ID < node->ID) {
                         q = q->right;
-                    } else if (q->ID > node->ID) {
+                    } else {
                         q = q->left;
                     }
                     cout << " ";
@@ -111,7 +108,7 @@ int main() {
     antall = 0;
     srand(0);
 
-    gRoot = generate(4, 80);      //      80% sjanse for å lage et subtre)
+    gRoot = generate(4, 90);      //      80% sjanse for å lage et subtre)
 
     cout << "\n\nTester oppgave A - Nodene etter at 'nivaa' er satt:\n";
     settNivaa(gRoot);             //  Setter ALLE nodenes nivå.
