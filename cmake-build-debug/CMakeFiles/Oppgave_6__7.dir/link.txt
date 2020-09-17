@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Oppgave_6__7.dir/TreeCase3.cpp.o  -o Oppgave_6__7 
+/usr/bin/c++  -g   CMakeFiles/Oppgave_6__7.dir/Oppgave9.cpp.o  -o Oppgave_6__7 
