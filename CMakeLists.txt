@@ -3,4 +3,4 @@ project(oppgaver-algmet)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Oppgave_6__7 Oppgave9.cpp)
+add_executable(Oppgave_6__7 Oppgave11.cpp)
